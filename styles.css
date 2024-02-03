@@ -5,27 +5,3 @@ body {
 a {
     color: #999999;
 }
-
-pre {
-  white-space: pre-line
-}
-
-.tooltip-text {
-  visibility: hidden;
-  position: absolute;
-  z-index: 1;
-  width: 100px;
-  font-size: 12px;
-  background-color: #192733;
-  border-radius: 10px;
-  padding: 10px 15px 10px 15px;
-}
-
-.hover-text:hover .tooltip-text {
-  visibility: visible;
-}
-
-.hover-text {
-  position: relative;
-  display: inline-block;
-}
